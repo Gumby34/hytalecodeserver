@@ -1,0 +1,14 @@
+package com.google.crypto.tink;
+
+import com.google.errorprone.annotations.Immutable;
+
+@Immutable
+public abstract class Parameters {
+  public abstract boolean hasIdRequirement();
+}
+
+
+/* Location:              C:\Users\asier\Desktop\hytale-server\HytaleServer.jar!\com\google\crypto\tink\Parameters.class
+ * Java compiler version: 8 (52.0)
+ * JD-Core Version:       1.1.3
+ */

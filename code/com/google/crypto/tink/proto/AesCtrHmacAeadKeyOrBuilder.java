@@ -1,0 +1,25 @@
+package com.google.crypto.tink.proto;
+
+import com.google.protobuf.MessageOrBuilder;
+
+public interface AesCtrHmacAeadKeyOrBuilder extends MessageOrBuilder {
+  int getVersion();
+  
+  boolean hasAesCtrKey();
+  
+  AesCtrKey getAesCtrKey();
+  
+  AesCtrKeyOrBuilder getAesCtrKeyOrBuilder();
+  
+  boolean hasHmacKey();
+  
+  HmacKey getHmacKey();
+  
+  HmacKeyOrBuilder getHmacKeyOrBuilder();
+}
+
+
+/* Location:              C:\Users\asier\Desktop\hytale-server\HytaleServer.jar!\com\google\crypto\tink\proto\AesCtrHmacAeadKeyOrBuilder.class
+ * Java compiler version: 8 (52.0)
+ * JD-Core Version:       1.1.3
+ */

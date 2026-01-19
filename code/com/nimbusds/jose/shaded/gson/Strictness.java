@@ -1,0 +1,35 @@
+/*    */ package com.nimbusds.jose.shaded.gson;
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ public enum Strictness
+/*    */ {
+/* 22 */   LENIENT,
+/*    */ 
+/*    */   
+/* 25 */   LEGACY_STRICT,
+/*    */ 
+/*    */   
+/* 28 */   STRICT;
+/*    */ }
+
+
+/* Location:              C:\Users\asier\Desktop\hytale-server\HytaleServer.jar!\com\nimbusds\jose\shaded\gson\Strictness.class
+ * Java compiler version: 8 (52.0)
+ * JD-Core Version:       1.1.3
+ */
